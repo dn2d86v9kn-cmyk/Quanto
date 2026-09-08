@@ -1,0 +1,29 @@
+QUANTO — Beta 0.1 Private Test
+
+Questa è la prima build pensata per uso reale e condivisione con pochi tester.
+
+COSA INCLUDE
+- onboarding iniziale senza dati demo;
+- salvataggio automatico locale;
+- backup e ripristino JSON;
+- controllo qualità dei dati;
+- simulazioni e decisioni salvate;
+- calendario finanziario e data stimata;
+- PWA installabile;
+- funzionamento offline dopo la prima apertura;
+- pulsante Installa con istruzioni iOS;
+- schermata Info con privacy, limiti e disclaimer;
+- gestione cache/aggiornamenti della PWA;
+- promemoria backup dopo 14 giorni dall'ultimo backup.
+
+IMPORTANTE
+I dati restano sul singolo browser/dispositivo. Non esiste ancora sincronizzazione cloud.
+La cancellazione dei dati del sito può rimuovere il profilo locale.
+I file di backup possono contenere dati finanziari sensibili: conservarli con attenzione.
+
+PUBBLICAZIONE
+Carica l'intero contenuto di questa cartella su un hosting statico HTTPS.
+Il file iniziale è index.html.
+Non caricare soltanto index.html: manifest, service-worker e cartella icons servono per l'installazione PWA.
+
+Versione: Beta 0.1 Private Test.
